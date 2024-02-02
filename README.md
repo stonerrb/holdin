@@ -5,7 +5,7 @@
  1. Using Cron to update the data in Postgres
     
 ## How To Run
- 1. Clone the Project: ``````
+ 1. Clone the Project
  2. Make sure you are in ```backend``` directory
  3. To start the development server: ```npm run start```
 
