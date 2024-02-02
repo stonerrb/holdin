@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191d28;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #ffffff74;
+    margin: 20px;
+}
+
+#heading{
+    color: #5dc7c2;
+    font-weight: bolder;
+    font-size: x-large;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#data-table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0, 5px;
+}
+
+#data-table th{
+    color: #ffffff74;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+
+#data-table td{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-right:hidden;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.the{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.back{
+    background-color:#ffffff74 ;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-right:hidden;    
+}
+
+.foot{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    border-width: 2px;
+    border-radius: 2px;
+    border: 2px solid #ffffff74;
+    padding: 10px;
+}
