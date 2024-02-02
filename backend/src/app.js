@@ -26,7 +26,7 @@ app.use((req,res) => {
 //-------------------------END-------------------------//
 
 //-------------------------JOB-------------------------//
-// cron.schedule('* * * * *', updateStocks);
+cron.schedule('* * * * *', updateStocks);
 
 app.listen(3000, () => {
     console.log('Server is up on port 3000.');
